@@ -2,7 +2,7 @@ import mysql.connector
 import os
 
 # Read database configuration from environment variables with default values
-db_host = os.getenv('DB_HOST', '172.30.40.79')
+db_host = os.getenv('DB_HOST', ' 172.30.160.41')
 db_user = os.getenv('DB_USER', 'root')
 db_password = os.getenv('DB_PASSWORD', 'root')
 db_name = os.getenv('DB_NAME', 'user')
